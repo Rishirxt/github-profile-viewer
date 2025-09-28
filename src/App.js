@@ -12,7 +12,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
+  const GITHUB_TOKEN = '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';
 
   const fetchUserData = async (username) => {
     if (!username) return;
